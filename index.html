@@ -59,7 +59,7 @@ h2{font-size:17px;margin:4px 0 13px}label{display:block;color:var(--muted);font-
 </section>
 </main>
 <nav class="tabs"><button class="active" data-tab="home" onclick="tab('home')"><b>⌂</b>ホーム</button><button data-tab="add" onclick="tab('add')"><b>＋</b>記録</button><button data-tab="stats" onclick="tab('stats')"><b>▥</b>分析</button><button data-tab="history" onclick="tab('history')"><b>◷</b>履歴</button><button data-tab="settings" onclick="tab('settings')"><b>⚙</b>設定</button></nav>
-<script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+<script async src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
 <script>
 const CLASSES=['エルフ','ロイヤル','ウィッチ','ドラゴン','ナイトメア','ビショップ','ネメシス'];
 let records=JSON.parse(localStorage.getItem('sswb_records')||'[]'),turn='先攻',result='勝ち';
